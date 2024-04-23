@@ -1,12 +1,53 @@
-<div align="center">
+<a href="https://reporacers.com/" taarget="_blank">
+  <img src="https://github.com/repo-racers/.github/blob/main/profile/repo-racers.svg" alt="Repo Raacers" width="600px"/>
+</a>
 
-![wakatime-charts](https://socialify.git.ci/dvjn/wakatime-charts/image?description=1&font=Inter&owner=1&pattern=Charlie%20Brown&theme=Light "wakatime charts")
+This repository is included in our open-source Pro Support service which offers an efficient solution for managing popular GitHub Actions dependencies with ease:
 
-![GitHub Repo stars](https://img.shields.io/github/stars/dvjn/wakatime-charts?color=%23dfb317&style=for-the-badge "Github Repo stars")
-![GitHub forks](https://img.shields.io/github/forks/dvjn/wakatime-charts?color=%2397ca00&style=for-the-badge "Github forks")
-![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/dvjn/wakatime-charts?color=%23fe7d37&label=PULLS&style=for-the-badge "Github pull requests")
+🙌 forked from [dvjn/wakatime-charts](https://github.com/dvjn/wakatime-charts)
+
+<details>
+
+<summary>What is Open-Source Pro Support?</summary>
+
+Open-Source Pro Support is a comprehensive service designed to streamline your workflow by providing:
+
+- **Customized Forks:** We create public forks of popular GitHub Actions, ensuring you have access to the latest features and fixes.
+  
+- **Dedicated Technical Support:** Say goodbye to the hassle of managing multiple open-source dependencies. With our service, you have a single point of contact for all your support needs. Reach out to us on our [Discord](https://discord.com/channels/1229786735161118882/1229786735161118885) server, and our team of experts will be ready to assist you.
+  
+- **Priority Fixes:** Experience seamless issue resolution with our priority fix service. If you encounter any issues with our forks, we prioritize fixing them promptly to minimize disruptions to your workflow.
+  
+- **Community Contribution:** We believe in giving back to the open-source community. When we fix issues in our forks, we handle creating pull requests to the original authors, ensuring that the entire community benefits from the improvements.
+
+</details>
+
+<details>
+
+<summary>How It Works</summary>
+
+
+1. **Choose Our Fork:** Instead of referencing popular GitHub Actions repositories directly, simply reference this repository in your workflow.
+   
+2. **Enjoy Dedicated Support:** If you encounter any issues or need assistance, reach out to us on our [Discord](https://discord.com/channels/1229786735161118882/1229786735161118885) server. Our team will be happy to help you promptly.
+   
+3. **Benefit from Priority Fixes:** Experience seamless issue resolution with our priority fix service. We prioritize fixing issues in our forks to ensure smooth operation for your projects.
+   
+4. **Contribute to the Community:** Rest assured that when we fix issues in our forks, we contribute back to the original repositories, benefiting the entire open-source community.
+
+*Not Your Thing?*
+
+We don't want to get in between you and the community. If you want to handle forking and submitting a pull request yourself, that's awesome.
+
+However, feel free to reach out to us on [Discord](https://discord.com/channels/1229786735161118882/1229786735161118885) anyway if you need any help and advice in doing so.
+
+:heart: [open-source](https://opensource.org/)
+
+</details>
 
 ---
+
+<div align="center">
 
 ![Weekly Language Stats](https://raw.githubusercontent.com/dvjn/wakatime-charts/master/images/wakatime_weekly_language_stats.svg "Weekly Language Stats")
 ![Weekly Project Stats](https://raw.githubusercontent.com/dvjn/wakatime-charts/master/images/wakatime_weekly_project_stats.svg "Weekly Project Stats")
@@ -38,7 +79,7 @@
        name: Update wakatime stats charts
        runs-on: ubuntu-latest
        steps:
-         - uses: dvjn/wakatime-charts@master
+         - uses: repo-racers/wakatime-charts-action@[insert version or commit]
            with:
              WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # only required if using the action in repository other than profile
@@ -68,3 +109,8 @@ Where, the chart name is one of `wakatime_weekly_language_stats` and `wakatime_w
 - [wakatime-readme](https://github.com/marketplace/actions/waka-readme)
 - [Profile-Readme-WakaTime](https://github.com/marketplace/actions/wakatime-stat-update-action)
 - [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+
+---
+
+> [!TIP]
+> For support with this repo and many other open-source projects, visit us at https://reporacers.com/ and join us on  [Discord](https://discord.com/channels/1229786735161118882/1229786735161118885).
